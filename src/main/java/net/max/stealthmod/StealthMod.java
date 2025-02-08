@@ -1,6 +1,7 @@
 package net.max.stealthmod;
 
 import net.max.stealthmod.block.ModBlocks;
+import net.max.stealthmod.item.ModCreativeModeTabs;
 import net.max.stealthmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,6 +55,8 @@ public class StealthMod
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

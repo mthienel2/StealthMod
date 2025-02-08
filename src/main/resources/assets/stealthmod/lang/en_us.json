@@ -3,5 +3,8 @@
   "item.stealthmod.raw_bismuth": "Raw Bismuth",
 
   "block.stealthmod.bismuth_block": "Block of Bismuth",
-  "block.stealthmod.bismuth_ore" : "Bismuth Ore"
+  "block.stealthmod.bismuth_ore" : "Bismuth Ore",
+
+  "creativetab.stealthmod.bismuth_items": "Bismuth Items",
+  "creativetab.stealthmod.bismuth_blocks": "Bismuth Blocks"
 }
