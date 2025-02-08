@@ -4,6 +4,7 @@
 
   "block.stealthmod.bismuth_block": "Block of Bismuth",
   "block.stealthmod.bismuth_ore" : "Bismuth Ore",
+  "block.stealthmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
   "creativetab.stealthmod.bismuth_items": "Bismuth Items",
   "creativetab.stealthmod.bismuth_blocks": "Bismuth Blocks"
